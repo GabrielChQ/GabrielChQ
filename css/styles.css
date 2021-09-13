@@ -1,6 +1,7 @@
 body {
     background-color: black; 
     color: white;
+    font-family: Medieval, Arial, Helvetica, sans-serif;
 }
 img {
     width: 500px;
@@ -14,11 +15,15 @@ nav {
 ul {
     list-style: none;
     display: flex;
-    flex direction: row;
+    flex-direction: row;
     float: right;
 }
 a {
     color: white; 
     text-decoration: none;
     margin-left: 10px;
+}
+@font-face {
+    font-family: Medieval;
+    src: url("../Fonts/MedievalSharp-Regular.ttf")
 }
