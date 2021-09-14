@@ -3,8 +3,11 @@ body {
     color: white;
     font-family: Medieval, Arial, Helvetica, sans-serif;
 }
-img {
+img#logo {
     width: 500px;
+}
+.t-50 {
+    width: 20%;
 }
 header {
     display:flex;
