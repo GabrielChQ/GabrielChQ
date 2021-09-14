@@ -21,7 +21,8 @@ ul {
     flex-direction: row;
     float: right;
 }
-a {
+a { 
+    font-family: Josefin;
     color: white; 
     text-decoration: none;
     margin-left: 10px;
@@ -29,4 +30,8 @@ a {
 @font-face {
     font-family: Medieval;
     src: url("../Fonts/MedievalSharp-Regular.ttf")
+}
+@font-face {
+    font-family: Josefin;
+    src: url("../Fonts/JosefinSans-VariableFont_wght.ttf")
 }
