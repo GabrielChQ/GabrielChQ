@@ -1,1 +1,41 @@
-*text
+* {
+    font-size: 14px;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../Fuente/Roboto-Regular.ttf);
+}
+body {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+span {
+    flex: 1px;
+}
+thead {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+th {
+margin: 16px;
+align-self: center;
+}
+section {
